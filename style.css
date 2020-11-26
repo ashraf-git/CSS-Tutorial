@@ -1,31 +1,15 @@
-#text{
-    border: 1px solid black;
-    width: 200px;
-    /* color: blue;
-    text-align: justify ; */
-    /* direction: rtl; */
-    vertical-align: top;
-    height: 300px;
-    /* text-decoration: line-through; */
-    text-transform: capitalize;
-    /* line-height: 50px;
-    text-indent: 50px;
-    letter-spacing: 4px; */
-    /* word-spacing: 40px; */
-    /* white-space: nowrap ; */
-    word-wrap: break-word;
+a{
+    text-decoration: none;
 }
-/* img{
-    border : 1px solid black;
-    vertical-align: middle;
-} */
-
-#shadow{
-    font-size: 50px;
-    text-shadow: 5px 10px 2px red;
+a:link{
+    color: yellowgreen;
 }
-#mode{
-    border: 1px solid black;
-    width: 300px;
-    writing-mode: vertical-rl;
+a:visited{
+    color: #000;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: red;
 }
