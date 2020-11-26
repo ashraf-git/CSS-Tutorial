@@ -1,15 +1,20 @@
-a{
-    text-decoration: none;
+@font-face{
+    font-family: abc;
+    src: url('fonts/Aclonica.ttf');
 }
-a:link{
-    color: yellowgreen;
+h1{
+    /* font-family: abc; */
 }
-a:visited{
-    color: #000;
+p{
+    font: italic small-caps 600 20px abc;
 }
-a:hover{
-    color: orange;
+/* h1{
+    font-family: 'Raleway', sans-serif;
 }
-a:active{
-    color: red;
-}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+} */
+
