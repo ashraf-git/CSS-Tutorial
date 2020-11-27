@@ -1,14 +1,6 @@
 div{
-    border: 1px solid red;  
-    /* cursor: col-resize; */
-    /* cursor: e-resize; */
-    /* cursor: crosshair; */
-    /* cursor: grab; */
-    /* cursor: help; */
-    /* cursor: not-allowed; */
-    /* cursor: pointer; */
-    /* cursor: progress; */
-    /* cursor: wait; */
-    /* cursor: zoom-in; */
-    cursor: zoom-out;
+    border: 1px solid red !important;  
+}
+div{
+    border: 1px solid green;  
 }
