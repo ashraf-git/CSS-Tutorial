@@ -1,13 +1,6 @@
-img{
-    /* filter: blur(10px); */
-    /* filter: brightness(50%); */
-    /* filter: contrast(70%); */
-    /* filter: drop-shadow(5px 5px 5px red); */
-    /* filter: grayscale(100%); */
-    /* filter: hue-rotate(100deg); */
-    /* filter: invert(50%); */
-    /* filter: opacity(50%); */
-    /* filter: saturate(30%); */
-    /* filter: sepia(30%); */
-    filter: brightness(50%), contrast(40%);
+#sprite{
+    height: 128px;
+    background-repeat: no-repeat;
+    background-image: url(images/11.png);
+    background-position: 0px -120px;
 }
