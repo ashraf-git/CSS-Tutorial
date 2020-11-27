@@ -1,8 +1,16 @@
-div{
-    border: 1px solid green;  
-    width: 500px;
-    background-color: yellowgreen;
-    margin: 100px;
-    padding: 20px;
-    box-shadow: 10px 10px 15px 3px gray, -10px 10px 15px 3px red;
+.color-box{
+    height: 200px;
+    width:500px;
+    background-color: green;
+    /* opacity: .5; */
 }
+/* img:hover{
+    opacity: .7;
+} */
+ .color-red{
+     height: 300px;
+     width: 200px;
+     background-color: red;
+     margin-top: -100px;
+     opacity: .5;
+ }
