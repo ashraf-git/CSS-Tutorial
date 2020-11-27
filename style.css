@@ -1,10 +1,14 @@
-html{
-    font-size: 20px;
-}
-#parent {
-    /* font-size: 40px; */
-    font-size: 12vw;
-}
-#child{
-    font-size: 2rem;
+div{
+    border: 1px solid red;  
+    /* cursor: col-resize; */
+    /* cursor: e-resize; */
+    /* cursor: crosshair; */
+    /* cursor: grab; */
+    /* cursor: help; */
+    /* cursor: not-allowed; */
+    /* cursor: pointer; */
+    /* cursor: progress; */
+    /* cursor: wait; */
+    /* cursor: zoom-in; */
+    cursor: zoom-out;
 }
