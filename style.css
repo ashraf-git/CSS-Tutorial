@@ -1,6 +1,12 @@
-#sprite{
-    height: 500px;
-    border: 1px solid gray;
-    /* background-image: linear-gradient(to bottom right, green, blue, red); */
-    background-image: radial-gradient(circle, green 20%, blue 30%, red 50%);
+#overflow{
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    border: 1px solid #000;
+    overflow: auto;
+    /* resize: both; */
+    resize: vertical;
+}
+textarea{
+    resize: horizontal;
 }
