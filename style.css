@@ -1,6 +1,6 @@
 #sprite{
-    height: 128px;
-    background-repeat: no-repeat;
-    background-image: url(images/11.png);
-    background-position: 0px -120px;
+    height: 500px;
+    border: 1px solid gray;
+    /* background-image: linear-gradient(to bottom right, green, blue, red); */
+    background-image: radial-gradient(circle, green 20%, blue 30%, red 50%);
 }
