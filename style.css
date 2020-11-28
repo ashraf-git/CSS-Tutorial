@@ -1,12 +1,13 @@
-#overflow{
-    width: 400px;
-    height: 600px;
-    background-color: gray;
-    border: 1px solid #000;
-    overflow: auto;
-    /* resize: both; */
-    resize: vertical;
+ul{
+    /* list-style-type: square; */
+    list-style-image: url("images/arrow.png");
+    list-style-position: inside;
 }
-textarea{
-    resize: horizontal;
+ol{
+    /* list-style-type: upper-alpha; */
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+li{
+    border: 1px solid #000;
 }
