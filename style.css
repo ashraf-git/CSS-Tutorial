@@ -1,12 +1,7 @@
-#green{
- color: green;
-}
-#blue{
- color: red;
-}
-#initial{
- color: initial;
-}
-#inherit{
-color: inherit;
+img{
+    border: 1px solid #000;
+    width: 400px;
+    height: 100px;
+    object-fit: contain;
+    object-position: top left;
 }
