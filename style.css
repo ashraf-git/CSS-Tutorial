@@ -1,9 +1,14 @@
-li:nth-last-child(5){
+p::first-line{
+    font-size: 30px;
     color: red;
 }
-input:focus{
-    border: 5px solid red;
+h1::before{
+    content: url(images/arrow.png);
 }
-/* input:focus{
-    border: 5px solid yellow;
-} */
+h1::after{
+    content : " added after";
+}
+::selection{
+    background: red;
+    color: yellow;
+}
