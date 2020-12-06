@@ -1,7 +1,9 @@
-img{
-    border: 1px solid #000;
-    width: 400px;
-    height: 100px;
-    object-fit: contain;
-    object-position: top left;
+li:nth-last-child(5){
+    color: red;
 }
+input:focus{
+    border: 5px solid red;
+}
+/* input:focus{
+    border: 5px solid yellow;
+} */
