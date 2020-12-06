@@ -1,18 +1,13 @@
-:root{
-    --primary-color: green;
-    --btn-color: yellow;
-    --text-color: black;
-}
-#func{
-    background-color: var(--primary-color);
+#div1{
+    background-color: blueviolet;
     height: 200px;
-    width: calc(100% - 200px);
+    width: 500px;
 }
-a{
-    padding: 10px 30px;
-    margin: 20px;
-    background-color: var(--btn-color);
-    color: var(--text-color);
-    text-decoration: none;
-
-} 
+#div2{
+    background-color: chocolate;
+    height: 200px;
+    width: 500px;
+    border: 10px solid black;
+    padding:20px;
+    box-sizing: border-box;
+}
