@@ -1,14 +1,11 @@
-p::first-line{
-    font-size: 30px;
-    color: red;
+.display{
+    border: 1px solid #000;
+    width:50%;
+    height: 100px;
+    display: inline-block;
 }
-h1::before{
-    content: url(images/arrow.png);
-}
-h1::after{
-    content : " added after";
-}
-::selection{
-    background: red;
-    color: yellow;
+#div1{
+    display: none;
+    /* visibility: hidden; */
+    height: 500px;
 }
