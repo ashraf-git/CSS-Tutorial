@@ -1,32 +1,16 @@
-ul{
+#content{
+    width: 70%;
     background-color: green;
-    list-style-type: none;
-    /* border: 1px solid #000; */
-    overflow: auto;
-}
-li{
-    color: white;
-    padding: 5px 20px;
+    height: 200PX;
     float: left;
 }
-img{
-    width:100px;
-    height: auto;
-}
-#img1{
-    float: right;
-}
-#img2{
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
     float: left;
 }
-.botp{
-    border: 1px solid #000;
-    overflow: auto;
-}
-#img3{
-    float: right;
-}
-#img4{
-    float: right;
-    clear: right;
+#footer{
+    background-color: yellowgreen;
+    clear: both;
 }
