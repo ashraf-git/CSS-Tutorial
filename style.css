@@ -1,39 +1,48 @@
-#div1{
-    width: 70%;
-    float: left;
-    background-color: lawngreen;
+/* element selector */
+li{
+    color: red;
 }
-#div2{
-    width: 30%;
-    float: left;
-    background-color: rosybrown;
+/* ID selector */
+#list2{
+    color: green;
 }
-h1{
-    font-size: 80px;
+/* class selector */
+.list5{
+    color: blue;
 }
-@media screen and (max-width:768px){
-    #div1{
-        width: 50%;
-    }
-    #div2{
-        width: 50%;
-    }
+/* pseudio selector */ 
+a:hover{
+    color: red;
 }
-@media screen and (min-width:400px)and (max-width:768px) {
-    #div1{
-        width:100%;
-    }
-    #div2{
-        width: 100%;
-        background-color: #000;
-        color: #fff;
-    }
+/* pseudio element selector */
+p::first-line{
+    /* color: red; */
 }
-img{
-    width: 100%;
-    height: auto;
+/* attribute selector  */
+a[href="https://www.google.com"]{
+    color: teal;
 }
-video{
-    width: 100%;
-    height: auto;
+/* universal selector */
+*{
+    /* border: 1px solid #000; */
+}
+/* under child selector */
+div a{
+    font-size: 25px;
+}
+/* direct child selector */
+div>a{
+    text-decoration: none;
+}
+/*sibling selector */
+div+p{
+    color: green;
+}
+/*all sibling selector */
+div ~ a{
+    background-color: yellow;
+}
+/* multiple selector */
+h1, p{
+    background:yellow;
 }
