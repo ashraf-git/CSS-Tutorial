@@ -1,29 +1,14 @@
-#wrapper{
-    padding: 20px;
-    margin: 100px;
-    background-color:yellow;
-    /* transform: matrix(scaleX(), skewX(), skewY(), scaleY(), translateX(), translateY()); */
-    transform: matrix(1, -0.2,0, 1, 0, 0);
+#cover{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    margin: 115px;
 }
-a{
-    text-decoration: none;
-    background-color: lightcoral;
-    padding: 10px 20px;
-    color: white;
-    /* transform: translate  */
-    display: inline-block;
-    /* transform: skew(-20deg); */
-    /* transform: skewX(20deg); */
-    /* transform: skewY(20deg); */
-    /* transform: rotate(20deg);
-    transform-origin: 0% 100%; */
-    
-
-}
-a:hover{
-    /* display: inline-block; */
-    /* transform: rotate(20deg); */
-    /* transform: scale(.8, .7); */
-    /* transform: scaleX(1.5); */
-    /* transform: scaleY(1.5); */
+#content{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    /* transform: perspective(300px) rotate3d(0, 0, 50, 30deg); */
+    /* transform: perspective(300px) translate3d(0px, 0px, -50px); */
+    transform: perspective(300px) translate3d(50px, 50px, 50px);
 }
