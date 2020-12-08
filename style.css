@@ -1,14 +1,20 @@
-#cover{
-    border: 2px solid red;
-    width: 200px;
-    height: 200px;
-    margin: 115px;
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 100px;
+    /* transition-property: width; */
+    /* transition-property: width, background-color; */
+    /* transition-property: all; */
+    /* transition-duration: 1s; */
+    /* transition-duration: 500ms; */
+    /* transition-delay: 500ms; */
+    transition-timing-function: ease-in-out;
+    /* transition: property duration timing-function delay; */
+    transition: width 2s, height 3s;
 }
-#content{
+#div1:hover{
     width: 200px;
-    height: 200px;
-    background-color: yellowgreen;
-    /* transform: perspective(300px) rotate3d(0, 0, 50, 30deg); */
-    /* transform: perspective(300px) translate3d(0px, 0px, -50px); */
-    transform: perspective(300px) translate3d(50px, 50px, 50px);
+    height: 300px;
+    /* background-color: green; */
 }
