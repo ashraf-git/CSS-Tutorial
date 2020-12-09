@@ -1,48 +1,12 @@
-/* element selector */
-li{
-    color: red;
+div{
+    column-count: 3;
+    column-gap: 50px;
+    /* column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: red; */
+    column-rule: 1px solid red;
+    column-width: 300px;
 }
-/* ID selector */
-#list2{
-    color: green;
-}
-/* class selector */
-.list5{
-    color: blue;
-}
-/* pseudio selector */ 
-a:hover{
-    color: red;
-}
-/* pseudio element selector */
-p::first-line{
-    /* color: red; */
-}
-/* attribute selector  */
-a[href="https://www.google.com"]{
-    color: teal;
-}
-/* universal selector */
-*{
-    /* border: 1px solid #000; */
-}
-/* under child selector */
-div a{
-    font-size: 25px;
-}
-/* direct child selector */
-div>a{
-    text-decoration: none;
-}
-/*sibling selector */
-div+p{
-    color: green;
-}
-/*all sibling selector */
-div ~ a{
-    background-color: yellow;
-}
-/* multiple selector */
-h1, p{
-    background:yellow;
+h1{
+    column-span: all; 
 }
